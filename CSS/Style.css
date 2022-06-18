@@ -5,3 +5,46 @@
     outline: none;
     font-size: 100%;
 }
+
+body {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    flex-direction: column;
+    
+}
+
+body input{
+    flex-direction: row;
+
+
+}
+
+.calculadora .valores {
+    font-size: 5rem;
+}
+
+button {
+    border-radius: 1rem;
+    width: 10rem;
+    background-color: #fff;
+    margin-top: 2rem;
+}
+.calc_rlod {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    background-color: #000000;
+    color: #fff;
+    font-size: 10rem;
+}
+
