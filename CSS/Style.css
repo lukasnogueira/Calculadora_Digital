@@ -48,3 +48,11 @@ header {
     font-size: 10rem;
 }
 
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 10rem;
+    color: #fff;
+    background-color: #000000;
+}

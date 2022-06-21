@@ -98,7 +98,7 @@ function Valores_1(value) {
 }
 
 function valores_2() {
-    var butoes = document.querySelectorO('.calc_rlod')
+    var butoes = document.querySelector('.calc_rlod')
     var operacoes = document.querySelector('.operacoes')
     document.getElementById('+').remove()
     document.getElementById('-').remove()
@@ -168,7 +168,7 @@ function valores_2() {
 
 function calcular() {
     var resposta = document.querySelector('.resultados')
-    var butoes = document.querySelectorO('.calc_rlod')
+    var butoes = document.querySelector('.calc_rlod')
     var operacoes = document.querySelector('.operacoes')
 
     var a = parseFloat(document.querySelector('#valores_1').value)
